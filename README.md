@@ -24,6 +24,4 @@ dengan stay at home.
 
 ### Metode
 - A * algorithm
-
-
-...Digunakan oleh musuh (enemy) untuk mencari jalan terpendek untuk mendekati pemain (player).
+      Digunakan oleh musuh (enemy) untuk mencari jalan terpendek untuk mendekati pemain (player).
