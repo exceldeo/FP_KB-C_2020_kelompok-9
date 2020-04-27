@@ -23,7 +23,7 @@ public class Spawner : MonoBehaviour
             timeBtwSpanwns = startTimeBtwSpawns;
         }
         else{
-            timeBtwSpanwns += Time.deltaTime;
+            timeBtwSpanwns -= Time.deltaTime;
         }
     }
 }
