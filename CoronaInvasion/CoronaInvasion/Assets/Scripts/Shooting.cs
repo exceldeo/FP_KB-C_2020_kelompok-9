@@ -5,12 +5,12 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
     public GameObject shot;
-    private Transform playerPos;
+    public Transform firePoint;
 
     // Start is called before the first frame update
     void Start()
     {
-        playerPos = GetComponent<Transform>();
+        
     }
 
     // Update is called once per frame
@@ -18,7 +18,8 @@ public class Shooting : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            Instantiate(shot, playerPos.position, Quaternion.identity);
+            Instantiate(shot, firePoint.position, firePoint.rotation);
         }
     }
+
 }
