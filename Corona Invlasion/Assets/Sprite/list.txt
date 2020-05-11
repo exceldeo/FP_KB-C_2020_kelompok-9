@@ -1,8 +1,0 @@
-List :
-1. Player
-2. Enemy
-3. Building
-4. Bullets
-5. Buttons
-6. Homepage background
-7. GameOver background

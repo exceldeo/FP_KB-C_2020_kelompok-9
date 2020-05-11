@@ -19,7 +19,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime);
+        //transform.position = Vector2.MoveTowards(transform.position, playerPos.position, speed * Time.deltaTime);
     }
 
     void OnTriggerEnter2D(Collider2D other)
