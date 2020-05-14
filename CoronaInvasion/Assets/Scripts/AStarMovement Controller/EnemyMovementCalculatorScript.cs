@@ -35,6 +35,7 @@ public class EnemyMovementCalculatorScript : MonoBehaviour
 	}
 
 	void nextNodeInQueue() {
+		// Buat jalanin track yang di list
 		if(qnodes.Count > 0)
 			nextNode = qnodes.Dequeue().worldPosition;
 		else {
@@ -96,6 +97,7 @@ public class EnemyMovementCalculatorScript : MonoBehaviour
 		}
 		pathList.Remove(playerNode);
 		pathList.Remove(thisNode);
+		// Dapat path dibalik
 		pathList.Reverse();
 
 		return pathList;
