@@ -17,6 +17,6 @@ public class Pointer : MonoBehaviour
     void Update()
     {
         target = transform.GetComponent<Camera>().ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, transform.position.z));
-        crosshairs.transform.position = new Vector3(target.x, target.y, -1.0f);
+        crosshairs.transform.position = new Vector3(target.x, target.y, -2.0f);
     }
 }
